@@ -75,6 +75,13 @@ The virtual file system is stored using the browser's **localStorage**.
 | Notes       | Create and store notes               |
 | Settings    | Configure simulator preferences      |
 
+### Preview
+
+![img1](https://github.com/rasenshuriken12/NovaLinux/blob/77f1b84c4a2569b413a90074e5f1b6b2e6e901e2/assets/Terminal-AI.png)
+
+![img2](https://github.com/rasenshuriken12/NovaLinux/blob/77f1b84c4a2569b413a90074e5f1b6b2e6e901e2/assets/Files-Help.png)
+
+
 ---
 
 ## 🏗️ Project Architecture
@@ -115,25 +122,25 @@ novalinux/
 
 ### Core Components
 
-**Core System**
+- **Core System**
 Handles global state and common utilities.
 
-**Virtual File System**
+- **Virtual File System**
 Provides the simulated directories, files, and file operations.
 
-**Command Engine**
+- **Command Engine**
 Implements Linux-style commands and generates simulated output.
 
-**Shell**
+- **Shell**
 Connects terminal input with the command engine.
 
-**Window Manager**
+- **Window Manager**
 Controls application windows and desktop interactions.
 
-**Applications**
+- **Applications**
 Individual JavaScript modules implement the built-in applications.
 
-**Boot System**
+- **Boot System**
 Initializes the simulator and starts the desktop environment.
 
 ---
