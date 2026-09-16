@@ -1,0 +1,31 @@
+/* ================= PHONE MODE ================= */
+@media (max-width:700px){
+  #topbar{height:40px;font-size:12px}
+  #tb-os{display:none}
+  #tb-activities{padding:4px 9px}
+  #desktop-icons{display:none}
+  #dock{left:6px;right:6px;bottom:6px;transform:none;width:auto;justify-content:space-between;padding:6px;border-radius:18px}
+  #dock-apps{flex:1;justify-content:space-around;gap:0}
+  .dock-item{width:40px;height:40px;border-radius:12px}
+  .dock-item svg{width:21px;height:21px}
+  #dock-sep,#dock-tasks{display:none}
+  .win{left:0!important;top:0!important;width:100%!important;height:calc(100% - 68px)!important;border:none;border-radius:0;
+    resize:none;min-width:0;min-height:0}
+  .term{padding-bottom:12px}
+  .win::after{display:none}
+  .win-header{height:48px;flex:0 0 48px}
+  .win-title{font-size:14px}
+  #qs-panel{left:8px;right:8px;width:auto;top:42px}
+  .lg-grid{grid-template-columns:repeat(3,1fr);gap:18px;max-width:none}
+  .lg-item .lg-ic{width:64px;height:64px;border-radius:18px}
+  .lg-item svg{width:30px;height:30px}
+  .fm-side,.fm-preview{display:none}
+  .fm-bar{flex-wrap:nowrap;overflow-x:auto}
+  .notes-side{width:106px;flex:0 0 106px}
+  .set-row{flex-wrap:wrap}
+  .set-input{font-size:16px}
+  .cal-addrow input{font-size:16px}
+  #ai-input{font-size:16px}
+  #term-real{font-size:16px}
+  .cal-day{aspect-ratio:1.1}
+}
