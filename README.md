@@ -143,8 +143,8 @@ Initializes the simulator and starts the desktop environment.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd novalinux
+git clone https://github.com/rasenshuriken12/NovaLinux.git
+cd Novalinux
 ```
 
 ### 2. Run the Project
